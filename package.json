@@ -1,0 +1,18 @@
+{
+  "name": "gustavnybro.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Gustav2/gustavnybro.com.git",
+  "author": "Gustav2 <gustavnybro@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^4.5.7"
+  }
+}
