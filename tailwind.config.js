@@ -4,10 +4,9 @@ module.exports = {
   content: [
     './**/*.html'
   ],
-  darkMode: 'media',
   theme: {
     extend: {
-      typography: {...},
+      typography: {},
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
