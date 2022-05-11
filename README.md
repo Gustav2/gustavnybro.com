@@ -1,5 +1,4 @@
 # gustavnybro.com
 
-cd assets/css
+npx tailwindcss --input ./assets/css/main.css --output ./assets/css/tailwind.css --watch
 
-npx tailwindcss --input main.css --output tailwind.css --watch

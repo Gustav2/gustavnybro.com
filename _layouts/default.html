@@ -1,15 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
 <head>
-
-  <!-- google analytics -->
-  {% if site.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-
-  <!-- Jekyll SEO plugin -->
-  {% seo %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
@@ -29,6 +21,9 @@
     href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark-dimmed.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   
   <!-- MathJax -->
   <script>
@@ -42,8 +37,8 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
  </head>
 
-<body class="font-sans mx-auto max-w-prose">
-  <div class="pt-12 pb-4">
+<body class="font-sans mx-auto bg-primary-color lg:w-3/4">
+  <div class="pt-12 pb-4 min-h-screen w-full">
     {{ content }}
   </div>
 </body>

@@ -9,7 +9,7 @@ plugins:
 
 
 # color theme for links
-theme-color: indigo # indigo|yellow|pink|green|stone|
+theme-color: dark # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Gustav Søndergaard Nybro
@@ -21,9 +21,9 @@ show-nav-menu: true
 
 nav-menu:
 - text: About
-  permalink: about
-- text: Bitcoin
-  permalink: bitcoin
+  permalink: \#about
+- text: Contact
+  permalink: \#contact
 - text: Blog
   permalink: blog
 
@@ -38,5 +38,5 @@ google-scholar: false
 email: false
 
 # footer information
-footer-msg: "Powered by Tailpages"
+footer-msg: ""
 footer-msg-link: https://github.com/harrywang/tailpages
