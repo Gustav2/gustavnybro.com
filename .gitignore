@@ -1,7 +1,16 @@
-_site/
+_site/l
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 *.bak
 /node_modules/
+<<<<<<< Updated upstream
 .idea/
+=======
+.idea/
+.DS_Store
+.bundle/
+Gemfile.lock
+vendor/
+
+>>>>>>> Stashed changes
