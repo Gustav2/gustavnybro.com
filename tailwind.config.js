@@ -50,6 +50,7 @@ module.exports = {
             },
             colors: {
                 'primary-color': '#0a192f',
+                'second': '#0d213d',
             },
         },
     },

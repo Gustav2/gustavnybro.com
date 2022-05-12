@@ -22,9 +22,11 @@ show-nav-menu: true
 nav-menu:
 - text: About
   permalink: \#about
+- text: Projects
+  permalink: \#projects
 - text: Contact
   permalink: \#contact
-- text: Blog
+- text: Blog &#129133;
   permalink: /blog
 
 # use false to turn off any social media links
