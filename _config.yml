@@ -25,7 +25,7 @@ nav-menu:
 - text: Contact
   permalink: \#contact
 - text: Blog
-  permalink: blog
+  permalink: /blog
 
 # use false to turn off any social media links
 twitter: https://twitter.com/

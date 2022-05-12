@@ -1,16 +1,18 @@
 ---
 layout: default
 ---
-{% if site.show-nav-menu %}
-{% include nav.html%}
-{% endif %}
+<section class="mx-auto text-center h-screen text-white justify-center items-center" id="frontpage">
 
-<section class="mx-auto text-center h-screen" id="frontpage">
-
-    <h3 class="text-7xl">Hi! I am</h3>
-    <h1 class="h">Gustav Søndergaard Nybro</h1>
-    <h2>Lorem ipsum dolor sit amet hejsat tho det ser ret setjt ud det ehr</h2>
-    <p class="text-gray-500 pb-4">Student</p>
+    <div class="">
+        {% if site.show-nav-menu %}
+        {% include nav.html%}
+        {% endif %}
+    </div>
+    <div class="w-3/5 mx-auto text-left pt-5">
+        <h3 class="text-xl mb-5 ml-10 font-light tracking-widest">Hi! I my name is</h3>
+        <h1 class="text-7xl text-poppins text-left font-black leading-tight">Gustav <br> Søndergaard Nybro</h1>
+        <h2 class="text-gray-500 pt-4 text-lg w-1/2">Im a technical student, who blalalalbla and really love the computer wuters yesy yes yeys that is reall ycool i guesss sdlfk sllskdfj lslkdjflshjdfkjlkdkkd sddfs skdkkdg dhdhfksjd kjk</h2>
+    </div>
 
     <a href="#about" id="read-arrow" class="mx-auto items-center justify-center w-fit animate-bounce absolute inset-x-0 bottom-4 ease-in-out transition transform">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-arrow-down" viewBox="0 0 16 16">
@@ -19,15 +21,39 @@ layout: default
     </a>
 
 </section>
-<section>
+<section id="about" class="border border-blue-50 pt-16 text-white justify-center items-center">
+
+    <h1 class="text-center text-4xl font-black tracking-widest mb-16">About me</h1>
+
+    <div class="grid grid-cols-2 w-3/4 mx-auto">
+
+        <div class="border border-red-800 text-gray-400 font-extralight">
+            <h2 class="font-bold text-xl text-gray-100">Gustav Søndergaard Nybro</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat sapien in imperdiet luctus. Nunc vitae dapibus quam. Duis pellentesque diam in lectus maximus, quis ullamcorper diam euismod.
+            </p>
+            <br>
+            <p>
+                Fusce sit amet mauris suscipit, blandit velit ut, pretium mi. Nullam porttitor rhoncus dignissim. Suspendisse magna massa, finibus non commodo sed, tristique eu diam. Phasellus lobortis libero et tortor sollicitudin, sit amet mattis massa commodo. Donec vel ligula risus. Suspendisse potenti. Aenean et tellus non enim tempus efficitur.
+            </p>
+            <br>
+            <p>
+                Nulla felis lacus, tincidunt vel fermentum nec, pharetra eu elit.
+            </p>
+
+
+
+        </div>
+        <div class="border border-blue-50">
+            <img class="object-cover mx-auto h-96 w-96" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
+                 alt="author profile image">
+
+        </div>
+    </div>
 
 
 </section>
-<div>
-    <img class="object-cover mx-auto h-36 w-36 rounded-full" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
-         alt="author profile image">
 
-</div>
 </div>
 <script>
     $(window).scroll(function(){
