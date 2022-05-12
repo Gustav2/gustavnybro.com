@@ -3,11 +3,11 @@ layout: default
 ---
 <style>
     .background-animate {
-        background-size: 350%;
+        background-size: 375%;
 
-        -webkit-animation: gradient 20s ease infinite;
-        -moz-animation: gradient 20s ease infinite;
-        animation: gradient 20s ease infinite;
+        -webkit-animation: gradient 15s ease infinite;
+        -moz-animation: gradient 15s ease infinite;
+        animation: gradient 15s ease infinite;
     }
 
     @keyframes gradient {
@@ -105,21 +105,28 @@ layout: default
     <h3 class="mx-auto w-fit text-center mt-12 leading-relaxed">Interested in more? <br> Checkout my <a
             class="text-cyan-400 hover:text-cyan-100 transition ease-in-out" href="https://github.com/Gustav2/"
             target="_blank">GitHub</a> or read some of my
-        <a class="text-cyan-400 hover:text-cyan-100 transition ease-in-out" href="{{site.baseurl}}/blog/">blog posts</a>
+        <a class="text-cyan-400 hover:text-cyan-100 transition ease-in-out" href="{{site.baseurl}}/blog/">blog
+            posts!</a>
     </h3>
 
 </section>
 
 <section id="contact" class="text-white py-16">
 
-    <h1 class="text-center text-4xl font-black tracking-widest mb-16">
+    <h1 class="text-center text-4xl font-black tracking-widest mb-12">
         <span>&#x2E3B;&nbsp; Contact &nbsp;&#x2E3B;</span></h1>
 
-    <div>
-
-        {% include social-media.html %}
-
+    <div class="w-1/4 text-lg text-center mx-auto text-gray-400 leading-relaxed mb-10">
+        <p class="mb-7">Found some of this interesting? Have a question? or simply want to say hi? What ever it might
+            be, feel free
+            to contact me! You can send me an email and get back to you as soon as
+            possible! Also feel free to contact me on social media.</p>
+        <button onclick="window.location.href = 'mailto:gustav@gustavnybro.com'"
+                class="text-xl bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-lg py-4 px-7 text-white hover:text-gray-700 hover:scale-95 transition transform ease-in-out">
+            Send me a mail!
+        </button>
     </div>
+    {% include social-media.html %}
 </section>
 
 
