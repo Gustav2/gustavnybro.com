@@ -567,19 +567,23 @@ html {
 }
 
 .mb-10 {
-  margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .mb-7 {
-  margin-bottom: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+
+.mb-9 {
+    margin-bottom: 2.25rem;
 }
 
 .block {
-  display: block;
+    display: block;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .inline-flex {
@@ -1638,21 +1642,36 @@ html {
 }
 
 .hover\:bg-cyan-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 145 178 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(8 145 178 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-cyan-900:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 78 99 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 78 99 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-second:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(13 33 61 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blue-700:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gradient-to-tl:hover {
-  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+    background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
 .hover\:bg-none:hover {
-  background-image: none;
+    background-image: none;
 }
 
 .hover\:from-cyan-500:hover {
