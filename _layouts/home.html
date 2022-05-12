@@ -3,11 +3,11 @@ layout: default
 ---
 <style>
     .background-animate {
-        background-size: 300%;
+        background-size: 350%;
 
-        -webkit-animation: gradient 25s ease infinite;
-        -moz-animation: gradient 25s ease infinite;
-        animation: gradient 25s ease infinite;
+        -webkit-animation: gradient 20s ease infinite;
+        -moz-animation: gradient 20s ease infinite;
+        animation: gradient 20s ease infinite;
     }
 
     @keyframes gradient {
@@ -23,7 +23,7 @@ layout: default
     }
 </style>
 <section
-        class="mx-auto text-center h-screen text-white my-auto bg-gradient-to-br from-primary-color to-blue-900 background-animate"
+        class="mx-auto text-center h-screen text-white my-auto bg-gradient-to-br from-primary-color to-blue-800 background-animate"
         id="frontpage">
 
     <div class="">
@@ -102,6 +102,11 @@ layout: default
         <div class="border border-blue-500 w-60 h-40"></div>
         <div class="border border-blue-500 w-60 h-40"></div>
     </div>
+    <h3 class="mx-auto w-fit text-center mt-12 leading-relaxed">Interested in more? <br> Checkout my <a
+            class="text-cyan-400 hover:text-cyan-100 transition ease-in-out" href="https://github.com/Gustav2/"
+            target="_blank">GitHub</a> or read some of my
+        <a class="text-cyan-400 hover:text-cyan-100 transition ease-in-out" href="{{site.baseurl}}/blog/">blog posts</a>
+    </h3>
 
 </section>
 
@@ -110,10 +115,11 @@ layout: default
     <h1 class="text-center text-4xl font-black tracking-widest mb-16">
         <span>&#x2E3B;&nbsp; Contact &nbsp;&#x2E3B;</span></h1>
 
-   <div>
-       {% include social-media.html %}
+    <div>
 
-   </div>
+        {% include social-media.html %}
+
+    </div>
 </section>
 
 
