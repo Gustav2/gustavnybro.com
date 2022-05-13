@@ -13,8 +13,8 @@ theme-color: dark # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Gustav Søndergaard Nybro
-author-bio: Student  # change to false to hide
-author-image: 279.png  # file must be in the /assets/img/ folder
+
+
 
 # navigation menu
 show-nav-menu: true
@@ -31,14 +31,11 @@ nav-menu:
 
 # use false to turn off any social media links
 twitter: https://twitter.com/
-facebook: https://facebook.com/
-instagram: https://instagram.com/
-github: https://github.com/
-linkedin: https://linkedin.com/
+facebook: false
+instagram: false
+github: https://github.com/Gustav2/
+linkedin: https://linkedin.com/in/gustavnybro/
 medium: false
 google-scholar: false
 email: false
 
-# footer information
-footer-msg: ""
-footer-msg-link: https://github.com/harrywang/tailpages
