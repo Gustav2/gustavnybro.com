@@ -1,7 +1,7 @@
 title: Gustav Nybro
 
-baseurl: "/gustavnybro.com" # the subpath of your site, e.g. /blog
-url: "https://gustav2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://gustavnybro.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
