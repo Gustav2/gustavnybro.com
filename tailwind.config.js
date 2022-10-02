@@ -7,13 +7,13 @@ module.exports = {
     ],
     theme: {
         extend: {
-            typography:({ theme }) => ( {
+            typography: ({theme}) => ({
                 dark: {
                     css: {
                         '--tw-prose-body': theme('colors.slate[50]'),
                         '--tw-prose-headings': theme('colors.slate[50]'),
                         '--tw-prose-lead': theme('colors.pink[700]'),
-                        '--tw-prose-links': theme('colors.pink[900]'),
+                        '--tw-prose-links': theme('colors.white'),
                         '--tw-prose-bold': theme('colors.pink[900]'),
                         '--tw-prose-counters': theme('colors.pink[600]'),
                         '--tw-prose-bullets': theme('colors.pink[400]'),
@@ -42,6 +42,11 @@ module.exports = {
                         '--tw-prose-invert-pre-bg': 'rgb(0 0 0 / 50%)',
                         '--tw-prose-invert-th-borders': theme('colors.pink[600]'),
                         '--tw-prose-invert-td-borders': theme('colors.pink[700]'),
+                        a: {
+                            color: 'var(--tw-prose-links)',
+                            textDecorationLine: 'none',
+                            fontWeight: '500',
+                        }
                     },
                 },
             }),
