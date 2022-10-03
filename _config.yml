@@ -7,6 +7,13 @@ url: "https://gustavnybro.com" # the base hostname & protocol for your site, e.g
 plugins:
   - jekyll-seo-tag
 
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
 
 # color theme for links
 theme-color: dark # indigo|yellow|pink|green|stone|
@@ -20,17 +27,17 @@ author: Gustav Søndergaard Nybro
 show-nav-menu: true
 
 nav-menu:
-- text: About
-  permalink: \#about
-- text: Projects
-  permalink: \#projects
-- text: Contact
-  permalink: \#contact
-- text: Blog &#129133;
-  permalink: /blog
+  - text: About
+    permalink: \#about
+  - text: Projects
+    permalink: \#projects
+  - text: Contact
+    permalink: \#contact
+  - text: Blog &#129133;
+    permalink: /blog
 
 # use false to turn off any social media links
-twitter: https://twitter.com/gustavnybro/-
+twitter: https://twitter.com/gustavnybro/
 facebook: false
 instagram: false
 github: https://github.com/Gustav2/

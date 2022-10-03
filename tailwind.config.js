@@ -8,6 +8,26 @@ module.exports = {
     theme: {
         extend: {
             typography: ({theme}) => ({
+                DEFAULT: {
+                    css: {
+                        pre: {
+                            padding: "0",
+                            color: "#f3f3f3",
+                            backgroundColor: "#1f2933"
+                        },
+                        code: {
+                            padding: "0.2em 0.4em",
+                            backgroundColor: "#474747",
+                            color: "#DD1144",
+                            fontWeight: "400",
+                            "border-radius": "0.25rem"
+                        },
+                        "code::before": false,
+                        "code::after": false,
+                        "blockquote p:first-of-type::before": false,
+                        "blockquote p:last-of-type::after": false,
+                    },
+                },
                 dark: {
                     css: {
                         '--tw-prose-body': theme('colors.slate[50]'),
