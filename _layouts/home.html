@@ -25,6 +25,36 @@ layout: default
         }
     }
 </style>
+
+<!-- SEO -->
+<title>Gustav Søndergaard Nybro - Portfolio | My Personal Portfolio</title>
+<meta property="og:title" content="Gustav Søndergaard Nybro - Portfolio">
+<meta name="author" content="Gustav Søndergaard Nybro">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="My Personal Portfolio">
+<meta property="og:description" content="My Personal Portfolio">
+<link rel="canonical" href="https://gustavnybro.com/">
+<meta property="og:url" content="https://gustavnybro.com/">
+<meta property="og:site_name" content="Gustav Søndergaard Nybro - Portfolio">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Gustav Søndergaard Nybro - Portfolio">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@Gustav Søndergaard Nybro">
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "author": {
+            "@type": "Person",
+            "name": "Gustav Søndergaard Nybro"
+        },
+        "description": "My Personal Portfolio",
+        "headline": "Gustav Søndergaard Nybro - Portfolio",
+        "name": "Gustav Søndergaard Nybro - Portfolio",
+        "url": "https://gustavnybro.com/"
+    }
+</script>
 <section
         class="mx-auto text-center h-screen text-white my-auto bg-gradient-to-br from-primary-color to-blue-800 background-animate"
         id="frontpage">
@@ -156,13 +186,15 @@ layout: default
     <!-- mailto button - uses js for simplicity -->
     <div class="w-1/4 text-lg text-center mx-auto text-gray-400 leading-relaxed mb-12">
         <p class="mb-9">Found some of this interesting? Have a question? or simply want to say hi? What ever it might
-            be, feel free
-            to contact me! You can send me an email and get back to you as soon as
-            possible! Also feel free to contact me on social media.</p>
-        <button onclick="window.location.href = 'mailto:gustav@gustavnybro.com'"
-                class="text-xl bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-lg py-4 px-7 text-white hover:text-gray-700 hover:scale-95 transition transform ease-in-out">
-            Send me a mail!
-        </button>
+            be, feel free to contact me! You can email me and get back to you as soon as possible! Also feel free to
+            contact me on social media.</p>
+        <div>
+            <button onclick="window.location.href = 'mailto:gustav@gustavnybro.com'"
+                    class="text-xl bg-gradient-to-br from-cyan-400 to-cyan-600 rounded-lg py-4 px-7 text-white hover:text-gray-700 hover:scale-95 transition transform ease-in-out">
+                Send me a mail!
+            </button>
+        </div>
+        <span class="text-sm w-full text-gray-700">gustav@gustavnybro.com</span>
     </div>
     <!-- social media links included -->
     {% include social-media.html %}

@@ -37,7 +37,7 @@ nav-menu:
     permalink: /blog
 
 # use false to turn off any social media links
-twitter: https://twitter.com/gustavnybro/
+twitter: false
 facebook: false
 instagram: false
 github: https://github.com/Gustav2/
