@@ -4,6 +4,7 @@ layout: default
 {% if site.show-nav-menu %}
 {% include nav.html%}
 {% endif %}
+{% assign words = content | strip_html | number_of_words %}
 
 <div class=" w-full lg:w-2/3 mx-auto mt-12 bg-gray-800 p-8 h-fit mb-12 shadow rounded-lg prose lg:prose-xl prose-invert max-w-none">
     <h1 class="text-center mt-6 mb-6">{{ page.title }}</h1>
@@ -16,15 +17,14 @@ layout: default
         </div>
         {% endfor %}
         {% endif %}
+        &bull;
+        <div class="not-prose inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium border border-indigo-100 text-indigo-100">
+
+            <a class="!no-underline">{{ words | divided_by: 180 | plus: 1 }} min read</a>
+        </div>
+
     </div>
-    <div class="text-center prose">
-        {% assign words = content | number_of_words %}
-        {% if words < 360 %}
-        1 min
-        {% else %}
-        {{ words | divided_by:180 }} mins
-        {% endif %}
-    </div>
+
     {{content}}
 </div>
 
