@@ -34,3 +34,5 @@ Machine Learning training
 * Python 
 * Tensorflow Lite with tflite-model-maker
 * Google Colab 
+
+
