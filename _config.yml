@@ -6,6 +6,7 @@ url: "https://gustavnybro.com" # the base hostname & protocol for your site, e.g
 # Build settings
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 markdown: kramdown
 kramdown:
