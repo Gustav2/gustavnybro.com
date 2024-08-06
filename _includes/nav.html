@@ -24,21 +24,5 @@
                       fill-opacity="1" fill-rule="nonzero"/>
             </svg>
         </a>
-        <div class="flex hidden md:block" id="navbar">
-            <div class="flex flex-col md:flex-row mr-auto w-full">
-                <a class=" text-gray-300 hover:text-white px-3 py-2 lg:py-1 mx-auto uppercase"
-                    href="{{site.baseurl}}/">
-                    Home
-                </a>
-
-                <!-- dynamic menu based on navigation info in _config.yml -->
-                {% for link in site.nav-menu %}
-                    <a class="text-gray-300 hover:text-white px-3 py-2 lg:py-1 mx-auto uppercase"
-                        href="{{site.baseurl}}{{link.permalink}}">
-                        {{link.text}}
-                    </a>
-                {% endfor %}
-            </div>
-        </div>
     </div>
 </nav>
